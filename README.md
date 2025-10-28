@@ -17,7 +17,7 @@ This project explores **toxic comment classification** across social media platf
 The project evaluates and compares both models based on performance metrics such as accuracy, precision, recall, and F1-score to determine which best captures the nuances of online toxicity.
 
 The full report is available in this repository as:  
-📄 **Assignment 1 Report.pdf**
+📄 **Project Report.pdf**
 
 ---
 
@@ -140,17 +140,4 @@ Predictions were saved as `distilbert_predictions.csv`, labeling each test comme
 - **Preprocessing:** NLTK, TF-IDF  
 - **Environment:** Jupyter Notebook / Google Colab  
 
----
 
-## 🚀 How to Run
-
-```bash
-# Clone repository
-git clone https://github.com/faizan9536/Social-Media-Mining-Assignment-1.git
-cd Social-Media-Mining-Assignment-1
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run notebook
-jupyter notebook Toxicity_Classification.ipynb
